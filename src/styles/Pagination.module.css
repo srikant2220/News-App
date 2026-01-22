@@ -1,0 +1,12 @@
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .button {
+    padding: 6px 14px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
