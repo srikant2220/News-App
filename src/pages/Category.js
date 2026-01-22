@@ -40,23 +40,23 @@ const CategoryContainer = () => {
 
   const CategoryWithLoader = withLoader(CategoryView);
 
-  const HomeView = ({ articles }) => {
-    return (
-      <div className={styles.container}>
-        <h2>Latest News</h2>
+  // const HomeView = ({ articles }) => {
+  //   return (
+  //     <div className={styles.container}>
+  //       <h2>Latest News</h2>
   
-        <div className={styles.grid}>
-          {articles && articles.length > 0 ? (
-            articles.map((article, index) => (
-              <NewsCard key={index} article={article} />
-            ))
-          ) : (
-            <p>No news available</p>
-          )}
-        </div>
-      </div>
-    );
-  };
+  //       <div className={styles.grid}>
+  //         {articles && articles.length > 0 ? (
+  //           articles.map((article, index) => (
+  //             <NewsCard key={index} article={article} />
+  //           ))
+  //         ) : (
+  //           <p>No news available</p>
+  //         )}
+  //       </div>
+  //     </div>
+  //   );
+  // };
 
   return (
     <>
